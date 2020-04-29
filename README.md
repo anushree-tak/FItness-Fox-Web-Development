@@ -1,4 +1,4 @@
-# FItness-Fox-Web-Development
+# Fitness-Fox-Web-Development
 Fitness Fox is about tracking exercises to maintain or increase the overall health of a user. This app will let the users log different durations of activity to meet these weekly goals.
 
 This section shows the file tree for the website code 

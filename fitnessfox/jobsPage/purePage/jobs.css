@@ -1,0 +1,207 @@
+* {
+    Margin: 0 auto;
+   Padding: 0;
+}
+
+Body{
+	background-color: beige;
+	font-family: Helvetica, Arial, sans-serif; 
+	width:1140px;
+}
+
+#page{
+    background-color: lightgray;
+   /* margin: 36 auto; */
+    width: 960px;
+
+}
+
+.page_container {
+	background-color: lightcoral;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	clear:both;
+  
+}
+
+#header {
+	background-color: #cc0000;
+	Color:white;
+	text-align:center;
+	height:100px;
+	 /* header height is 10% of the page container hei*/
+	height:10%;
+  
+}
+
+#header h1{
+   padding-top: 20px;
+    font-family: Verdana;
+    font-size: 40px;
+    
+}
+
+
+.aside {
+	   
+	width: 200px;
+	 /* Calculated percentage 200/900
+    900 is the width of page container*/
+    width: 22.222222222222222222222%;
+   height:800px ;
+    /* height of aside is 80% of page height*/
+    height: 80%;
+	background-color: gray;
+	float: left;
+   
+}
+
+.aside h4{
+font-size: 30px;
+    padding: 5px;
+    color: white;
+    
+}
+
+.aside a {
+	display: block;
+	background-color: #3ED64D;
+	color:#000;
+	text-decoration:none;
+	margin-top: 20px;
+	padding: 5%;
+	width: 80%;
+
+	font-size: 15px;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+    font-family: Verdana;
+	
+}
+
+.aside a:hover {
+	background-color:#cc0000;
+	color:#fff; 
+	font-size: 20px;
+    font-family: Verdana;
+}
+
+
+
+a {
+	text-decoration: none;
+	color: red;
+}
+
+h1,h2,h3 {
+	margin:0 auto;
+	margin-bottom: 30px;
+}
+
+
+.logo img {
+     /* height of logo is 100% of header and width is 12% of header */
+    Width: 100px;
+    width:12%;
+    Height: 100px;
+    height: 100%;
+    float: left;
+
+ }
+
+.aside_section {
+ padding:0px;
+ background-color: lightgreen;
+ width: 70%;
+    
+}
+
+
+
+.section
+{
+
+	width: 700px;
+		    /* Calculated percentage 700/900
+    900 is the width of page container*/
+    width: 77.7777777777777777777%;
+   height: 800px;
+       /* height of section is 80% of page height*/
+    height: 80%;
+  
+	float: right;
+	background-color:white;
+}
+
+
+.section h2{
+    padding-top: 20px;
+    font-family: Verdana;
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+.bestplacetowork
+{
+
+    width: 560px;
+     /* image width is 80% of section width
+		    560/700*/
+	width:80%;
+	height:auto;
+	align: center;
+}
+
+
+.footer
+{ clear:both;   /*Clear of any floating element to avoid overlapping*/
+	padding-top:20px;
+	background-color:#cc0000;
+    height: 100px;
+    /* footer is 10% of the page container*/
+    height: 10%;
+	color:white;
+	text-align: center;
+    font-size: 25px;
+}
+
+p {
+margin-bottom:30px;
+    padding: 10px;
+    font-family: Georgia;
+}
+@media screen and (max-width: 680px){
+	/* Making the website responsive */
+    Body{
+        width: auto;
+    }
+    #page{
+        width: auto;
+    }
+    .page_container{
+        width: auto;
+    }
+    .aside{
+        float: none;
+        width: 100%;
+        /*Aside occupies 100% of width;
+        Aside is 680px/ 680px*/
+        
+    }
+    .section{
+        float: none;
+        width: 100%;
+                /* section occupies 100% of width;
+        Aside section is 680px/ 680px*/
+    }
+    .bestplacetowork img{
+        width: 544px;
+        /* image occupies 80% of section width;
+         image width is 544px/ 680px */
+        width: 80%;
+        align: left;
+    }
+	
+	
